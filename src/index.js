@@ -21,3 +21,7 @@ const bcdee = {
   abc: 123,
   'a-b': 123,
 };
+const bcdee11 = {
+  abc: 123,
+  'a-b': 123,
+};
