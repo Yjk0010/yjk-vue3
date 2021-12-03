@@ -13,3 +13,7 @@ const bcd = {
   abc: 123,
   'a-b': 123,
 };
+const bcde = {
+  abc: 123,
+  'a-b': 123,
+};
