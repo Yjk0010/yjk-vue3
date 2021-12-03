@@ -30,13 +30,15 @@
     "vue-eslint-parser": "^8.0.1",
     "vue-tsc": "^0.3.0"
   },
-  "gitHooks": {
-    "pre-commit": "lint-staged"
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+    }
   },
   "lint-staged": {
     "src/**/*.{jsx,txs,ts,js,vue}": [
       "eslint --fix",
-      "git add"
+      "git add ."
     ]
   }
 }

@@ -17,3 +17,7 @@ const bcde = {
   abc: 123,
   'a-b': 123,
 };
+const bcdee = {
+  abc: 123,
+  'a-b': 123,
+};
