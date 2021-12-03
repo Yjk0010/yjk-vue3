@@ -16,9 +16,6 @@ module.exports = {
     ecmaVersion: 12,
     parser: '@typescript-eslint/parser',
     sourceType: 'module',
-    ecmaFeatures: {
-      jsx: true,
-    },
   },
   plugins: ['vue', '@typescript-eslint', 'prettier'],
   rules: {
@@ -31,4 +28,4 @@ module.exports = {
   globals: {
     defineProps: 'readonly',
   },
-}
+};
