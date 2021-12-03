@@ -9,3 +9,7 @@ const abc = {
   abc: 123,
   'a-b': 123,
 };
+const bcd = {
+  abc: 123,
+  'a-b': 123,
+};
