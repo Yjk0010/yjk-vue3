@@ -40,7 +40,7 @@
     "src/**/*.{ts,jsx,js,vue}": [
       "eslint --fix",
       "npm run prettier",
-      "git add"
+      "git add ."
     ]
   }
 }
