@@ -37,8 +37,10 @@
     }
   },
   "lint-staged": {
-    "src/**/*.{ts,js,vue}": [
-      "eslint --fix"
+    "src/**/*.{ts,jsx,js,vue}": [
+      "eslint --fix",
+      "npm run prettier",
+      "git add"
     ]
   }
 }
