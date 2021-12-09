@@ -6,3 +6,5 @@ function abc() {
 }
 
 console.log(abc());
+const abb = [1, 2, 3];
+console.log(abb);
